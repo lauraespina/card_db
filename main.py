@@ -8,7 +8,6 @@
 
 """
 
-from personal_info import work_folder
 from FileManagement import FileManagement
 from DataframeOps import DataframeOps
 from Card import Card
@@ -16,6 +15,8 @@ from CardList import CardList
 from QueryFactory import QueryFactory
 from RetrieveQueries import RetrieveQueries
 from AddAttributes import AddAttributes
+from personal_info import work_folder
+
 
 # Variables
 # -------------------
@@ -32,9 +33,6 @@ query_fasta_2 = '&rettype=fasta&retmode=text'
 query_prot_1 = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id='
 query_prot_2 = '&rettype=gp&retmode=text'
 origin_file = 'aro_index.tsv'
-# Change work_folder as appropriate
-work_folder = work_folder
-
 
 # Variables within classes and methods
 # -----------------------------------------------
