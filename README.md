@@ -20,4 +20,4 @@ Python scripts to automate ETL processes of getting coding sequences for antibio
 ## Data destinations
 
 * v1.0: Info stored in a relational database.
-* v0.0: Worksheet for the final dataset, after txt files have been locally stored with the Genbank information.
+* v0.0: Worksheet for the final dataset, after txt files have been locally stored with the Genbank information. See RELEASE 1 to access this version.
