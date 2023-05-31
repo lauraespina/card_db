@@ -4,13 +4,13 @@
     - Load of all the information onto the relational database
     - Export of the most relevant information in worksheet format 
 """
-from FileManagement2 import FileManagement
+from FileManagement import FileManagement
 from PopulateDb import PopulateDb
 from QueriesFromDb import QueriesFromDb
 from UpdateDb import UpdateDb
 import FactoryDb
 
-from personal_info_v1 import work_folder, email
+from personal_info import work_folder, email
 from Bio import Entrez
 import pandas as pd
 import sqlalchemy
