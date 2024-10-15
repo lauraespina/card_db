@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/) [![MySQL](https://img.shields.io/badge/MYSQL-blue)](https://www.mysql.com/) ![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
 
-Python scripts to automate ETL processes of getting coding sequences for antibiotic resistance genes into a relational database or into a non-relational database.
+Python scripts to automate ETL processes of retrieving coding sequences for antibiotic resistance genes and storing them in a relational database or in a non-relational database.
 
 ## Data sources
 
